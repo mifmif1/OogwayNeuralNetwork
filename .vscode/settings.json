@@ -1,5 +1,5 @@
 {
-    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.errorSquiggles": "disabled",
 
     "todo-tree.highlights.defaultHighlight": {
         "icon": "alert",
@@ -63,5 +63,8 @@
         "[x]"
     ],
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+    "files.associations": {
+        "ostream": "cpp"
+    },
 
 }

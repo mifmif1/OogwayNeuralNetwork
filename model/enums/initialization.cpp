@@ -1,1 +1,0 @@
-enum initialization{random, Xaviar, zero};

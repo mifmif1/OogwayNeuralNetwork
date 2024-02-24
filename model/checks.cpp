@@ -1,12 +1,10 @@
-#include "weight.cpp"
-using namespace std;
+#include <iostream>
+#include "./weights.h"
+#include "./enums/initialization.h"
 
 
- int main(){
-    weight a;
-    a.len1 = 5;
-    a.weightValues = (double*) malloc(a.len1 * sizeof(double));
-    print(a);
-    free(a.weightValues);
+int main(){
+    Weights firstWeights(5,5,zero);
+    firstWeights.printWeights();
     return 0;
 }
