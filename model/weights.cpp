@@ -3,7 +3,8 @@
 #include "./weights.h"
 
 using namespace std;
-using namespace Model;
+
+Weights::_initilize_weights();
 
 Weights::Weights(int weights_column, int weights_row, initialization weight_initialization){
     _columns_length = weights_column;
