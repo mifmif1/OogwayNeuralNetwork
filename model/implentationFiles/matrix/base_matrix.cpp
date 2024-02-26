@@ -1,6 +1,6 @@
-#include "../enums/initialization.h"
 #include <iostream>
-#include "../../headerFiles/matrix/base_matrix.h"
+#include "model/enums/initialization.h"
+#include "model/headerFiles/matrix/base_matrix.h"
 
 using namespace std;
 

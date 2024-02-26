@@ -1,6 +1,6 @@
 #ifndef BASE_MATRIX_H
 #define BASE_MATRIX_H
-#include "../enums/initialization.h"
+#include "model/enums/initialization.h"
 
 class BaseMatrix
 {

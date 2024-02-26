@@ -1,6 +1,6 @@
 #ifndef BIAS_H
 #define BIAS_H
-#include "../enums/initialization.h"
+#include "model/enums/initialization.h"
 #include "./base_matrix.h"
 
 class Bias : public BaseMatrix
