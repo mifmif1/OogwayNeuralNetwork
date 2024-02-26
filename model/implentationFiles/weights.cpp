@@ -55,7 +55,7 @@ void Weights::printWeights(){
 
     for (int r = 0; r < _rows_length; ++r){
     for (int c = 0; c < _columns_length; ++c){
-        cout << _weights[r][c] << endl;
+        cout << _weights[r][c] << ' ';
     }
     cout << endl;
     }
