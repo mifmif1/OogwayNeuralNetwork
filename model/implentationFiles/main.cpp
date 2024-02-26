@@ -1,11 +1,11 @@
 #include <iostream>
-#include "../headerFiles/weights.h"
-#include "../enums/initialization.h"
+#include "model/headerFiles/matrix/weights.h"
 
 using namespace std;
 
-int main(){
-    Weights firstWeights(5,5,zero);
-    firstWeights.printWeights();
+int main()
+{
+    Weights *a = new Weights(5,5, zero);
+    a->printWeights();
     return 0;
 }
