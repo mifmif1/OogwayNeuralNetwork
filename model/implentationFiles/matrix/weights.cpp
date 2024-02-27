@@ -1,6 +1,8 @@
 #include <iostream>
-#include "model/enums/initialization.h"
-#include "model/headerFiles/matrix/weights.h"
+#include "cpp_nn/model/enums/initialization.hpp"
+#include "cpp_nn/model/headerFiles/matrix/weights.hpp"
+#include "cpp_nn/model/headerFiles/matrix/base_matrix.hpp"
+
 
 using namespace std;
 
